@@ -17,7 +17,7 @@ namespace pair_notification_tgbot
 
         public TgBot()
         {
-            tgBotClient = new TelegramBotClient("1309652518:AAGBoah0faywqPCSYLAjp8X-e6Z6DXj92nk");
+            tgBotClient = new TelegramBotClient("token_here");
             tgBotClient.OnMessage += Bot_OnMessage;
 
             db = new DatabaseController();
